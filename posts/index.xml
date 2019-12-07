@@ -22,16 +22,5 @@
 As important as the writing itself is the Medium(pun intended) and how much control you have over it.</description>
     </item>
     
-    <item>
-      <title>What I Think About Lisp</title>
-      <link>https://aswinmohan.me/posts/what-i-think-about-lisp/</link>
-      <pubDate>Thu, 09 May 2019 20:16:35 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/posts/what-i-think-about-lisp/</guid>
-      <description>Lisp is awesome, lisp can make you the 10x programmer, Lisp is the Hero we need
- I have been reading about Lisp for some time now, and wherever I look and whatever I read there is always entire essays dedicated to lisp, how it&amp;rsquo;s awesome, how it can make you a better programmer, how it can solve world hunger given the chance.
-Lisp is a pretty old programming language, the second oldest still in use after fortran.</description>
-    </item>
-    
   </channel>
 </rss>
