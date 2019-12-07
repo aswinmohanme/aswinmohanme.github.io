@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aswinmohanme</title>
+    <link>https://aswinmohan.me/</link>
+    <description>Recent content on aswinmohanme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright Aswin Mohan</copyright>
+    <lastBuildDate>Sat, 07 Dec 2019 10:28:25 +0530</lastBuildDate>
+    
+	<atom:link href="https://aswinmohan.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://aswinmohan.me/about/</link>
+      <pubDate>Sat, 07 Dec 2019 10:28:25 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/about/</guid>
+      <description>I&amp;rsquo;m Aswin Mohan, 20 years old final-year Computer Science student at College of Engineering Chengannur. I love to code and have been doing that since 2013, I also love designing because who hates beautiful things.
+If you&amp;rsquo;re looking to know more about me, here is my resume, my contact details are inside.</description>
+    </item>
+    
+    <item>
+      <title>On Writing on the Internet</title>
+      <link>https://aswinmohan.me/posts/on-writing-on-internet/</link>
+      <pubDate>Sat, 07 Dec 2019 10:26:18 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/on-writing-on-internet/</guid>
+      <description>It&amp;rsquo;s been a long time since I have written some long form content, and it&amp;rsquo;s starting to show. The ability to write shows the ability of the mind to sit down and focus. Lately it has been hard to write something down, focus seems to be all over the place. That is hardly surprising given the amount of time I spent on my smartphone.
+As important as the writing itself is the Medium(pun intended) and how much control you have over it.</description>
+    </item>
+    
+  </channel>
+</rss>

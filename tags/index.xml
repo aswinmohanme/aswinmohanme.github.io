@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on aswinmohanme</title>
+    <link>https://aswinmohan.me/tags/</link>
+    <description>Recent content in Tags on aswinmohanme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright Aswin Mohan</copyright>
+    <lastBuildDate>Sat, 07 Dec 2019 10:26:18 +0530</lastBuildDate>
+    
+	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>writing</title>
+      <link>https://aswinmohan.me/tags/writing/</link>
+      <pubDate>Sat, 07 Dec 2019 10:26:18 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
