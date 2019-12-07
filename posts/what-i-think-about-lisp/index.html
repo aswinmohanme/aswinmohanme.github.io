@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>What I Think About Lisp - aswinmohanme</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="What I Think About Lisp" />
+<meta property="og:description" content="Lisp is awesome, lisp can make you the 10x programmer, Lisp is the Hero we need
+ I have been reading about Lisp for some time now, and wherever I look and whatever I read there is always entire essays dedicated to lisp, how it&rsquo;s awesome, how it can make you a better programmer, how it can solve world hunger given the chance.
+Lisp is a pretty old programming language, the second oldest still in use after fortran." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aswinmohan.me/posts/what-i-think-about-lisp/" />
+<meta property="article:published_time" content="2019-05-09T20:16:35+05:30" />
+<meta property="article:modified_time" content="2019-05-09T20:16:35+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="What I Think About Lisp"/>
+<meta name="twitter:description" content="Lisp is awesome, lisp can make you the 10x programmer, Lisp is the Hero we need
+ I have been reading about Lisp for some time now, and wherever I look and whatever I read there is always entire essays dedicated to lisp, how it&rsquo;s awesome, how it can make you a better programmer, how it can solve world hunger given the chance.
+Lisp is a pretty old programming language, the second oldest still in use after fortran."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/main.css" />
+
+	<script async src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://aswinmohan.me/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://aswinmohan.me/">
+				<img src="https://avatars.io/twitter/aswinmohanme" alt="aswinmohanme" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://aswinmohan.me/">aswinmohanme</a></h1>
+	<div class="site-description"><p>rants of someone interested in code, design and life.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/aswinmohanme" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/aswinmohanme" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">09</span>
+							<span class="rest">May 2019</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">What I Think About Lisp</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				
+
+<blockquote>
+<p>Lisp is awesome, lisp can make you the 10x programmer, Lisp is the Hero we need</p>
+</blockquote>
+
+<p>I have been reading about Lisp for some time now, and wherever I look and whatever I read there is always entire essays dedicated to lisp, how it&rsquo;s awesome, how it can make you a better programmer, how it can solve world hunger given the chance.</p>
+
+<p>Lisp is a pretty old programming language, the second oldest still in use after fortran. It&rsquo;s actually inspiring to think any language to be still around even after decades when the average life span of  a JS library is about 3 hours. This is the fact that is most intriguing for me. Why has Lisp survived so long ? Are the things told about Lisp true?</p>
+
+<p>Is there something of essence of Lisp that I&rsquo;m missing ? Am I not looking far enough ?</p>
+
+<h3 id="what-lisp-is-about">What Lisp is about ?</h3>
+
+<p>From my brief time that I have spent learning about Lisp, I can say this, Lisp is mostly about parenthesis(spelled it wrong i think). It&rsquo;s the () that gives the true power to lisp.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">  (defun list&gt;= (a b)
+  (cond
+    ((or (<span style="color:#2b91af">null</span> a) (<span style="color:#2b91af">null</span> b)) nil)
+    ((&gt;= a (car b)) (list&gt;= a (cdr b)))
+    (t (<span style="color:#2b91af">cons</span> (car b) (list&gt;= a (cdr b))))))</code></pre></div>
+<p>For a newbie, this looks like a lot of parens, but to the trained eye this actually looks like a lot of parens. It&rsquo;s the parens that might give Lisp it&rsquo;s true power, or is it something that McCarthy did decades ago that is embedded deep inside the language ?</p>
+
+<p>I really do like the parens, I really enjoy myself when typing those out. Pretty weird</p>
+
+<h3 id="lisp-the-good-things">Lisp the Good Things</h3>
+
+<p>All the essays concerning Lisp praise the immense power that Lisp bestows upon the user, aka programmer. The ability to change code on the fly, the parens, the lists everything seems to come from another planet.</p>
+
+<p>But there is no immediate feedback on all of these so praised things. Learning Haskell it became obvious how great  Haskell is for typing less code, and how bad javascript is when Learning JS. But when I&rsquo;m dipping my toes inside Lisp, I am not feeling the real happiness or the enlightment promised. All I&rsquo;m seeing is more and more parens, which I do enjoy typing.</p>
+
+<h3 id="it-s-not-lisp-it-s-me">It&rsquo;s Not Lisp, It&rsquo;s Me</h3>
+
+<p>I have rambled on for a couple of lines now. I honestly think Lisp is all the above claimed things. Lisp is beautiful like that country side girl who does not put on a shit ton of makeup. I have to spend more time with Lisp to see whether it holds up to the promise. I need to see more into the distance.</p>
+
+<p>I got to work more on Lisp to see what the true essence of Lisp is. I also hear it&rsquo;s macro system is super awesome too.</p>
+
+<p><a href="https://news.ycombinator.com/item?id=17030662">Discuss on HN</a></p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/lisp">lisp</a></li>
+							
+							<li><a href="/tags/code">code</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright Aswin Mohan |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>feather.replace()</script>
+</body>
+</html>
