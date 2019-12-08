@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aswinmohan.me/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/code/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/turning-off-syntax-highlighting/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/workflow/</loc>
+    <lastmod>2019-12-08T09:32:32+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aswinmohan.me/about/</loc>
     <lastmod>2019-12-07T10:28:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://aswinmohan.me/</loc>
-    <lastmod>2019-12-07T10:28:25+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aswinmohan.me/posts/on-writing-on-internet/</loc>
-    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/posts/</loc>
-    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/tags/</loc>
     <lastmod>2019-12-07T10:26:18+05:30</lastmod>
   </url>
   

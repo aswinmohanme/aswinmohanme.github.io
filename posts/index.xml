@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 10:26:18 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 09:32:32 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Turning Off Syntax Highlighting</title>
+      <link>https://aswinmohan.me/posts/turning-off-syntax-highlighting/</link>
+      <pubDate>Sun, 08 Dec 2019 09:32:32 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/turning-off-syntax-highlighting/</guid>
+      <description>Few weeks back I stumbled on this blog post which stated the obvious benefits of disabling syntax highlighting for your code. I would have been surprised if I hadn&amp;rsquo;t read this one before. Both the blog posts advocate disabling colors schemes completely or minimally.
+At the outset this seems absurd for anyone who has been coding for any length of time and insane for the cool kids who started learning to code in the age of color monitors.</description>
+    </item>
     
     <item>
       <title>On Writing on the Internet</title>

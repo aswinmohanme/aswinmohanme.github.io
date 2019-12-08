@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 10:26:18 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 09:32:32 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>code</title>
+      <link>https://aswinmohan.me/tags/code/</link>
+      <pubDate>Sun, 08 Dec 2019 09:32:32 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://aswinmohan.me/tags/workflow/</link>
+      <pubDate>Sun, 08 Dec 2019 09:32:32 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/workflow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>writing</title>
