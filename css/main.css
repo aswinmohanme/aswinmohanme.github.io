@@ -16,6 +16,9 @@
          url("https://rsms.me/inter/font-files/Inter-Medium.woff") format("woff");
 }
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -186,7 +189,7 @@ ul {
     margin-top: 0;
     padding: 20px;
     background-color: transparent !important;
-    font-family: "inconsolata";
+    font-family: "Inconsolata", monospace;
     border-style: solid;
     border-width: 1px;
     border-radius: 4px;
