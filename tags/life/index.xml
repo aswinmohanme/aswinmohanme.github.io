@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on aswinmohanme</title>
+    <link>https://aswinmohan.me/tags/life/</link>
+    <description>Recent content in life on aswinmohanme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright Aswin Mohan</copyright>
+    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aswinmohan.me/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Simplest Productivity System is the Best</title>
+      <link>https://aswinmohan.me/posts/simple-productivity/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/simple-productivity/</guid>
+      <description>Most of us are productivity gurus on the Internet nowadays. Anyone who works with a computer now has some general ideas of how to achieve productivity and most have those ideas to a fault. There are a million + one articles floating around claiming to have found the secret for eternal productivity. We watch endless motivational videos and informational videos outlining a 99 step process to plan your whole day, another 98 steps to plan your whole week for optimum productivity.</description>
+    </item>
+    
+  </channel>
+</rss>
