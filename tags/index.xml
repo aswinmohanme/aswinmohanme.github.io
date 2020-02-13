@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>code</title>
+      <link>https://aswinmohan.me/tags/code/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elixir</title>
+      <link>https://aswinmohan.me/tags/elixir/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phoenix</title>
+      <link>https://aswinmohan.me/tags/phoenix/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/phoenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tip-bit</title>
+      <link>https://aswinmohan.me/tags/tip-bit/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/tip-bit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typography</title>
+      <link>https://aswinmohan.me/tags/typography/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/typography/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>life</title>
@@ -27,15 +72,6 @@
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://aswinmohan.me/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://aswinmohan.me/tags/code/</link>
-      <pubDate>Sun, 08 Dec 2019 09:32:32 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/tags/code/</guid>
       <description></description>
     </item>
     

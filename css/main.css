@@ -192,12 +192,17 @@ ul {
     border-radius: 4px;
 }
 
+
 code {
     font-family: "inconsolata";
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
     padding: 2px 4px;
+}
+
+pre code {
+    border-style: none;
 }
 
 .highlight {

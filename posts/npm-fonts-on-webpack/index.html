@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Self Hosted NPM Fonts with Webpack - aswinmohanme</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Self Hosted NPM Fonts with Webpack" />
+<meta property="og:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aswinmohan.me/posts/npm-fonts-on-webpack/" />
+<meta property="article:published_time" content="2020-02-08T12:45:50+05:30" />
+<meta property="article:modified_time" content="2020-02-08T12:45:50+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Self Hosted NPM Fonts with Webpack"/>
+<meta name="twitter:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(."/>
+<link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/main.css" />
+
+		<script src="https://aswinmohan.me/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://aswinmohan.me/">
+				<img src="https://avatars.io/twitter/aswinmohanme" alt="aswinmohanme" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://aswinmohan.me/">aswinmohanme</a></h1>
+	<div class="site-description"><p>rants of someone interested in code, design and life.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/aswinmohanme" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/aswinmohanme" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">08</span>
+							<span class="rest">Feb 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Self Hosted NPM Fonts with Webpack</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Whenever I wanted new fonts Google Fonts was the defacto place I'd go to. It has a ton of great fonts and it's fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.</p>
+<p>Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(. A little digging and I found out about <a href="https://github.com/KyleAMathews/typefaces">Typefaces on NPM</a> . They are normal NPM packages that you add to your project which contains all the fonts files that you require with some cool optimizations for page speed. These fonts will be bundled with your project on building.</p>
+<h2 id="using-fonts-in-webpack">Using Fonts in Webpack</h2>
+<p>I am currently learning Elixir Phoenix which uses Webpack for asset management, it's only natural we use it for loading these fonts. This setup is tested to work with Phoenix project but should work on any webpack enabled project.</p>
+<h3 id="find-the-typeface-you-love">Find the typeface you love</h3>
+<p>There are literally hundreds of free awesome typefaces on the web. Just search for the name with NPM and then install that into your assets folder.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd assets
+npm install --save circular-std
+</code></pre></div><h3 id="install-needed-dependencies">Install needed Dependencies</h3>
+<p>Webpack is a modular build system and it requires extra modules to load these external font files correctly.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">npm i --save file-loader
+</code></pre></div><h3 id="add-font-loading-config">Add font loading config</h3>
+<p>Open <code>webpack.config.js</code> and add the following config which would load the font files from <code>node_modules</code> and package to your static folder.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{
+    test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+    use: [{
+        loader: &#39;file-loader&#39;,
+        options: {
+            esModule: false,
+            name: &#39;[name].[ext]&#39;,
+            outputPath: &#39;../fonts&#39;
+        }
+    }]
+}
+</code></pre></div><p>The <code>esModule: false</code> is a flag which is set to default to true. When it's kept that way the font files are not referenced correctly. The <code>name</code> key saves the fonts with the correct names and extensions instead of the default hash as name, and the output path saves the fonts to fonts directory.</p>
+<h3 id="import-fonts-on-javascript">Import fonts on Javascript</h3>
+<p>In your <code>app.js</code> import the font package. This would load and build those Font files.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">import &#34;circular-std&#34;
+</code></pre></div><h3 id="use-it">Use it</h3>
+<p>In your <code>app.css</code> you can now start using these fonts.</p>
+<p>Self hosting fonts have many advantages as offline loading in development, faster delivery and overall better performance. Ditch Google fonts and give self hosting a go.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/code">code</a></li>
+							
+							<li><a href="/tags/tip-bit">tip-bit</a></li>
+							
+							<li><a href="/tags/elixir">elixir</a></li>
+							
+							<li><a href="/tags/phoenix">phoenix</a></li>
+							
+							<li><a href="/tags/typography">typography</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright Aswin Mohan |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

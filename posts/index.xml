@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self Hosted NPM Fonts with Webpack</title>
+      <link>https://aswinmohan.me/posts/npm-fonts-on-webpack/</link>
+      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/npm-fonts-on-webpack/</guid>
+      <description>Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(.</description>
+    </item>
     
     <item>
       <title>The Simplest Productivity System is the Best</title>
