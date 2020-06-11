@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Self Hosted NPM Fonts with Webpack - aswinmohanme</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Self Hosted NPM Fonts with Webpack" />
-<meta property="og:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+<meta property="og:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&rsquo;d go to. It has a ton of great fonts and it&rsquo;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
 Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aswinmohan.me/posts/npm-fonts-on-webpack/" />
@@ -12,7 +12,7 @@ Everything was going nice when I found out Inter. It was free, looks really cris
 <meta property="article:modified_time" content="2020-02-08T12:45:50+05:30" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Self Hosted NPM Fonts with Webpack"/>
-<meta name="twitter:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+<meta name="twitter:description" content="Whenever I wanted new fonts Google Fonts was the defacto place I&rsquo;d go to. It has a ton of great fonts and it&rsquo;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
 Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(."/>
 <link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/normalize.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/main.css" />
@@ -76,10 +76,10 @@ Everything was going nice when I found out Inter. It was free, looks really cris
 			</div>
 					
 			<div class="markdown">
-				<p>Whenever I wanted new fonts Google Fonts was the defacto place I'd go to. It has a ton of great fonts and it's fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.</p>
+				<p>Whenever I wanted new fonts Google Fonts was the defacto place I&rsquo;d go to. It has a ton of great fonts and it&rsquo;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.</p>
 <p>Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(. A little digging and I found out about <a href="https://github.com/KyleAMathews/typefaces">Typefaces on NPM</a> . They are normal NPM packages that you add to your project which contains all the fonts files that you require with some cool optimizations for page speed. These fonts will be bundled with your project on building.</p>
 <h2 id="using-fonts-in-webpack">Using Fonts in Webpack</h2>
-<p>I am currently learning Elixir Phoenix which uses Webpack for asset management, it's only natural we use it for loading these fonts. This setup is tested to work with Phoenix project but should work on any webpack enabled project.</p>
+<p>I am currently learning Elixir Phoenix which uses Webpack for asset management, it&rsquo;s only natural we use it for loading these fonts. This setup is tested to work with Phoenix project but should work on any webpack enabled project.</p>
 <h3 id="find-the-typeface-you-love">Find the typeface you love</h3>
 <p>There are literally hundreds of free awesome typefaces on the web. Just search for the name with NPM and then install that into your assets folder.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd assets
@@ -100,7 +100,7 @@ npm install --save circular-std
         }
     }]
 }
-</code></pre></div><p>The <code>esModule: false</code> is a flag which is set to default to true. When it's kept that way the font files are not referenced correctly. The <code>name</code> key saves the fonts with the correct names and extensions instead of the default hash as name, and the output path saves the fonts to fonts directory.</p>
+</code></pre></div><p>The <code>esModule: false</code> is a flag which is set to default to true. When it&rsquo;s kept that way the font files are not referenced correctly. The <code>name</code> key saves the fonts with the correct names and extensions instead of the default hash as name, and the output path saves the fonts to fonts directory.</p>
 <h3 id="import-fonts-on-javascript">Import fonts on Javascript</h3>
 <p>In your <code>app.js</code> import the font package. This would load and build those Font files.</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">import &#34;circular-std&#34;

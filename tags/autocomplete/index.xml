@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>autocomplete on aswinmohanme</title>
+    <link>https://aswinmohan.me/tags/autocomplete/</link>
+    <description>Recent content in autocomplete on aswinmohanme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright Aswin Mohan</copyright>
+    <lastBuildDate>Sun, 12 Apr 2020 13:24:19 +0530</lastBuildDate>
+    
+	<atom:link href="https://aswinmohan.me/tags/autocomplete/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implementing Autocomplete Select in Rails 6</title>
+      <link>https://aswinmohan.me/posts/implementing-autocomplete-in-rails-6/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/implementing-autocomplete-in-rails-6/</guid>
+      <description>simple-form makes creating forms that handle associations in rails a breeze. It creates a select dropdown that works really well for use cases where the number of records are few. But once the number of options in the select box gets over a certain number you would be doing your users a favor by implementing it an autocomplete box.
+I ran into the same situation. I had a Contact table that has_one: Panchayat relation.</description>
+    </item>
+    
+  </channel>
+</rss>

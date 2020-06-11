@@ -4,7 +4,47 @@
   
   <url>
     <loc>https://aswinmohan.me/</loc>
-    <lastmod>2020-02-08T12:45:50+05:30</lastmod>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/autocomplete/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/implementing-autocomplete-in-rails-6/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/javascript/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/rails/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/rails-6/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/ruby/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/</loc>
+    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
   </url>
   
   <url>
@@ -23,17 +63,7 @@
   </url>
   
   <url>
-    <loc>https://aswinmohan.me/posts/</loc>
-    <lastmod>2020-02-08T12:45:50+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aswinmohan.me/posts/npm-fonts-on-webpack/</loc>
-    <lastmod>2020-02-08T12:45:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/tags/</loc>
     <lastmod>2020-02-08T12:45:50+05:30</lastmod>
   </url>
   

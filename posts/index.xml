@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 13:24:19 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Implementing Autocomplete Select in Rails 6</title>
+      <link>https://aswinmohan.me/posts/implementing-autocomplete-in-rails-6/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/implementing-autocomplete-in-rails-6/</guid>
+      <description>simple-form makes creating forms that handle associations in rails a breeze. It creates a select dropdown that works really well for use cases where the number of records are few. But once the number of options in the select box gets over a certain number you would be doing your users a favor by implementing it an autocomplete box.
+I ran into the same situation. I had a Contact table that has_one: Panchayat relation.</description>
+    </item>
     
     <item>
       <title>Self Hosted NPM Fonts with Webpack</title>
@@ -18,7 +28,7 @@
       <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
       
       <guid>https://aswinmohan.me/posts/npm-fonts-on-webpack/</guid>
-      <description>Whenever I wanted new fonts Google Fonts was the defacto place I&#39;d go to. It has a ton of great fonts and it&#39;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
+      <description>Whenever I wanted new fonts Google Fonts was the defacto place I&amp;rsquo;d go to. It has a ton of great fonts and it&amp;rsquo;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
 Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(.</description>
     </item>
     
@@ -37,7 +47,7 @@ Everything was going nice when I found out Inter. It was free, looks really cris
       <pubDate>Sun, 08 Dec 2019 09:32:32 +0530</pubDate>
       
       <guid>https://aswinmohan.me/posts/turning-off-syntax-highlighting/</guid>
-      <description>Few weeks back I stumbled on this blog post which stated the obvious benefits of disabling syntax highlighting for your code. I would have been surprised if I hadn&#39;t read this one before. Both the blog posts advocate disabling colors schemes completely or minimally.
+      <description>Few weeks back I stumbled on this blog post which stated the obvious benefits of disabling syntax highlighting for your code. I would have been surprised if I hadn&amp;rsquo;t read this one before. Both the blog posts advocate disabling colors schemes completely or minimally.
 At the outset this seems absurd for anyone who has been coding for any length of time and insane for the cool kids who started learning to code in the age of color monitors.</description>
     </item>
     
@@ -47,7 +57,7 @@ At the outset this seems absurd for anyone who has been coding for any length of
       <pubDate>Sat, 07 Dec 2019 10:26:18 +0530</pubDate>
       
       <guid>https://aswinmohan.me/posts/on-writing-on-internet/</guid>
-      <description>It&#39;s been a long time since I have written some long form content, and it&#39;s starting to show. The ability to write shows the ability of the mind to sit down and focus. Lately it has been hard to write something down, focus seems to be all over the place. That is hardly surprising given the amount of time I spent on my smartphone.
+      <description>It&amp;rsquo;s been a long time since I have written some long form content, and it&amp;rsquo;s starting to show. The ability to write shows the ability of the mind to sit down and focus. Lately it has been hard to write something down, focus seems to be all over the place. That is hardly surprising given the amount of time I spent on my smartphone.
 As important as the writing itself is the Medium(pun intended) and how much control you have over it.</description>
     </item>
     

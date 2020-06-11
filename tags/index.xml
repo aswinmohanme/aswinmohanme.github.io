@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 13:24:19 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>autocomplete</title>
+      <link>https://aswinmohan.me/tags/autocomplete/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/autocomplete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://aswinmohan.me/tags/javascript/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://aswinmohan.me/tags/rails/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails-6</title>
+      <link>https://aswinmohan.me/tags/rails-6/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/rails-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://aswinmohan.me/tags/ruby/</link>
+      <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/ruby/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>code</title>
