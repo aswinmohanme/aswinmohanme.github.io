@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sun, 12 Apr 2020 13:24:19 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 21:28:56 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>asdf</title>
+      <link>https://aswinmohan.me/tags/asdf/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/asdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://aswinmohan.me/tags/code/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elixir</title>
+      <link>https://aswinmohan.me/tags/elixir/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>erlang</title>
+      <link>https://aswinmohan.me/tags/erlang/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>legacy-code</title>
+      <link>https://aswinmohan.me/tags/legacy-code/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/legacy-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openssl</title>
+      <link>https://aswinmohan.me/tags/openssl/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/openssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://aswinmohan.me/tags/python/</link>
+      <pubDate>Tue, 23 Jun 2020 21:28:56 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>autocomplete</title>
@@ -54,24 +117,6 @@
       <pubDate>Sun, 12 Apr 2020 13:24:19 +0530</pubDate>
       
       <guid>https://aswinmohan.me/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://aswinmohan.me/tags/code/</link>
-      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>elixir</title>
-      <link>https://aswinmohan.me/tags/elixir/</link>
-      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/tags/elixir/</guid>
       <description></description>
     </item>
     

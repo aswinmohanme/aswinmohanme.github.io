@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>elixir on aswinmohanme</title>
-    <link>https://aswinmohan.me/tags/elixir/</link>
-    <description>Recent content in elixir on aswinmohanme</description>
+    <title>legacy-code on aswinmohanme</title>
+    <link>https://aswinmohan.me/tags/legacy-code/</link>
+    <description>Recent content in legacy-code on aswinmohanme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
     <lastBuildDate>Tue, 23 Jun 2020 21:28:56 +0530</lastBuildDate>
     
-	<atom:link href="https://aswinmohan.me/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aswinmohan.me/tags/legacy-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://aswinmohan.me/posts/compiling-older-openssl-for-older-packages/</guid>
       <description>Running older versions of software is always a pain. There will be missing libraries, compilation errors and what not. These issues can be mitigated little by using a package manager that manages the different versions of the software. But most package managers such as asdf download the source (yea OSS) and compile on your machine.
 Most of the tools and libraries work really good, but there is one error that keeps coming again and again.</description>
-    </item>
-    
-    <item>
-      <title>Self Hosted NPM Fonts with Webpack</title>
-      <link>https://aswinmohan.me/posts/npm-fonts-on-webpack/</link>
-      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/posts/npm-fonts-on-webpack/</guid>
-      <description>Whenever I wanted new fonts Google Fonts was the defacto place I&amp;rsquo;d go to. It has a ton of great fonts and it&amp;rsquo;s fairly easy to add to your projects. They are also hosted for free by Google which takes some load of your own webserver. I had a personal collection of favorite fonts that I cycle through on new projects.
-Everything was going nice when I found out Inter. It was free, looks really crisp and was not available on Google Fonts :(.</description>
     </item>
     
   </channel>

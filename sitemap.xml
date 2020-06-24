@@ -3,8 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aswinmohan.me/tags/asdf/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aswinmohan.me/</loc>
-    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/code/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/compiling-older-openssl-for-older-packages/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/elixir/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/erlang/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/legacy-code/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/openssl/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/posts/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/python/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/tags/</loc>
+    <lastmod>2020-06-23T21:28:56+05:30</lastmod>
   </url>
   
   <url>
@@ -23,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://aswinmohan.me/posts/</loc>
-    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aswinmohan.me/tags/rails/</loc>
     <lastmod>2020-04-12T13:24:19+05:30</lastmod>
   </url>
@@ -40,21 +85,6 @@
   <url>
     <loc>https://aswinmohan.me/tags/ruby/</loc>
     <lastmod>2020-04-12T13:24:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/tags/</loc>
-    <lastmod>2020-04-12T13:24:19+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/tags/code/</loc>
-    <lastmod>2020-02-08T12:45:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/tags/elixir/</loc>
-    <lastmod>2020-02-08T12:45:50+05:30</lastmod>
   </url>
   
   <url>
