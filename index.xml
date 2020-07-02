@@ -62,17 +62,6 @@ At the outset this seems absurd for anyone who has been coding for any length of
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://aswinmohan.me/about/</link>
-      <pubDate>Sat, 07 Dec 2019 10:28:25 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/about/</guid>
-      <description>I&amp;rsquo;m Aswin Mohan, 21 years old final-year Computer Science student at College of Engineering Chengannur. I love to code and have been doing that since 2013, I also love designing because who hates beautiful things.
-I put most of my code here on github.com/aswinmohanme, and some designs on behance. If you&amp;rsquo;re looking to know more about me, here is my resume, my contact details are inside.
- my best work</description>
-    </item>
-    
-    <item>
       <title>On Writing on the Internet</title>
       <link>https://aswinmohan.me/posts/on-writing-on-internet/</link>
       <pubDate>Sat, 07 Dec 2019 10:26:18 +0530</pubDate>
@@ -80,6 +69,17 @@ I put most of my code here on github.com/aswinmohanme, and some designs on behan
       <guid>https://aswinmohan.me/posts/on-writing-on-internet/</guid>
       <description>It&amp;rsquo;s been a long time since I have written some long form content, and it&amp;rsquo;s starting to show. The ability to write shows the ability of the mind to sit down and focus. Lately it has been hard to write something down, focus seems to be all over the place. That is hardly surprising given the amount of time I spent on my smartphone.
 As important as the writing itself is the Medium(pun intended) and how much control you have over it.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://aswinmohan.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aswinmohan.me/about/</guid>
+      <description>I&amp;rsquo;m Aswin Mohan, 21 years old final-year Computer Science student at College of Engineering Chengannur. I love to code and have been doing that since 2013, I also love designing because who hates beautiful things.
+I put most of my code here on github.com/aswinmohanme, and some designs on behance. If you&amp;rsquo;re looking to know more about me, here is my resume, my contact details are inside.
+ my best work</description>
     </item>
     
   </channel>
