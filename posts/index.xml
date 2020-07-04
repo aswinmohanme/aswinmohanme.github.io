@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Tue, 23 Jun 2020 21:28:56 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 09:36:01 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simplicity Matters</title>
+      <link>https://aswinmohan.me/posts/simplicity-matters/</link>
+      <pubDate>Fri, 26 Jun 2020 09:36:01 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/simplicity-matters/</guid>
+      <description>The world is inherently complex. Countless moving parts interact in exponential ways to create a a beautiful, functional but complex system. Even though the constituent parts of the system are really simple the consequent complex interactions give the system it&amp;rsquo;s unique characteristics. Take the Universe as an example, it&amp;rsquo;s just couple of subatomic particles all interacting within themselves and the ones around them in ways we don&amp;rsquo;t even know exist, which gives the universe it&amp;rsquo;s unique character.</description>
+    </item>
     
     <item>
       <title>Compiling OpenSSL 1.0 for Older Package Versions</title>
