@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>macOS like Fonts on Manjaro/Arch Linux - aswinmohanme</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="macOS like Fonts on Manjaro/Arch Linux" />
+<meta property="og:description" content="Either you love gorgeous typography or just don&rsquo;t care. If you are the former read ahead on how to make the font rendering on your Linux look just as awesome as that on macOS, else read on to find out what beauty you have been missing.
+I switched to a hackintosh for a while and fell in love with how beautiful the typography was. After returning to Linux and some fiddiling around I came across a not so ugly setup that looked close enough to macOS." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aswinmohan.me/posts/better-fonts-on-linux/" />
+<meta property="article:published_time" content="2020-09-11T22:15:59+05:30" />
+<meta property="article:modified_time" content="2020-09-11T22:15:59+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="macOS like Fonts on Manjaro/Arch Linux"/>
+<meta name="twitter:description" content="Either you love gorgeous typography or just don&rsquo;t care. If you are the former read ahead on how to make the font rendering on your Linux look just as awesome as that on macOS, else read on to find out what beauty you have been missing.
+I switched to a hackintosh for a while and fell in love with how beautiful the typography was. After returning to Linux and some fiddiling around I came across a not so ugly setup that looked close enough to macOS."/>
+<link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://aswinmohan.me/css/main.css" />
+
+		<script src="https://aswinmohan.me/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://aswinmohan.me/">
+				<img src="https://raw.githubusercontent.com/aswinmohanme/hugoBlog/master/static/images/avatar.png" alt="aswinmohanme" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://aswinmohan.me/">aswinmohanme</a></h1>
+	<div class="site-description"><p>rants of someone interested in code, design and life.</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/aswinmohanme" title="Github"><i data-feather="github"></i></a></li><li><a href="https://twitter.com/aswinmohanme" title="Twitter"><i data-feather="twitter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">11</span>
+							<span class="rest">Sep 2020</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">macOS like Fonts on Manjaro/Arch Linux</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Either you love gorgeous typography or just don&rsquo;t care. If you are the former read ahead on how to make the font rendering on your Linux look just as awesome as that on macOS, else read on to find out what beauty you have been missing.</p>
+<p>I switched to a hackintosh for a while and fell in love with how beautiful the typography was. After returning to Linux and some fiddiling around I came across a not so ugly setup that looked close enough to macOS. So if you want to make your Linux Distro a tad bit typographically better, follow along.</p>
+<h3 id="some-pointers">Some Pointers</h3>
+<p>Rather than copy pasting everything on here, let&rsquo;s try to understand why the fonts on macOS looks better than the ones we have on Linux.</p>
+<p>Fonts belong to certain types.</p>
+<ul>
+<li><code>sans-serif</code> : Well the sans fonts on your computer. The regular plain fonts.</li>
+<li><code>serif</code> : The fonts that look like they came out of a 14th century Bible. You know with the curves and they look like showoffs.</li>
+<li><code>monospace</code> : The typical code font. The ones where every character is the same width.</li>
+</ul>
+<p>The reason fonts look way better on macOS is because Steve Jobs loved typography, and he went the extra mile and licensed some great typefaces for each font type, and recently Apple put in the extra effort to make their custom fonts even better. Well fret not Linux has some free fonts that are metric compatible(means they look awfully similar), and better that we can substitute for fonts.</p>
+<h3 id="installation">Installation</h3>
+<p>Step one is installing the fonts that look similar or better than the ones on macOS.
+All the fonts that are used here can be found on the Arch Repositories, and on Google Fonts. You are free to replace everything with the ones you find great.</p>
+<ul>
+<li><code>sans-serif</code> : tex-gyre-fonts, free alternative to Helvetica and Arial and looks really really similar</li>
+<li><code>serif</code> : Libertinus Serif, suprisingly looks really great</li>
+<li><code>monospace</code> : DM Mono from Google Fonts, for monospace fonts that look great</li>
+<li><code>emoji</code> : noto-fonts-emoji, get some colorful emojis</li>
+</ul>
+<p>If you are using Manjaro or Arch here is the command to get all fonts in one go.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji
+</code></pre></div><h3 id="font-setup">Font Setup</h3>
+<p>Everything about fonts can be configured from a single file located at <code>/etc/fonts/local.conf</code> if the file doesn&rsquo;t exist create it. You do require <code>sudo</code> for it.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo nvim /et/fonts/local.conf
+</code></pre></div><p>After you are editing the file copy paste everything here.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;?xml version=&#39;1.0&#39;?&gt;
+&lt;!DOCTYPE fontconfig SYSTEM &#39;fonts.dtd&#39;&gt;
+&lt;fontconfig&gt;
+
+&lt;match target=&#34;font&#34;&gt;
+  &lt;edit name=&#34;autohint&#34; mode=&#34;assign&#34;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+  &lt;/edit&gt;
+  &lt;edit name=&#34;hinting&#34; mode=&#34;assign&#34;&gt;
+    &lt;bool&gt;true&lt;/bool&gt;
+  &lt;/edit&gt;
+  &lt;edit mode=&#34;assign&#34; name=&#34;hintstyle&#34;&gt;
+    &lt;const&gt;hintslight&lt;/const&gt;
+  &lt;/edit&gt;
+  &lt;edit mode=&#34;assign&#34; name=&#34;lcdfilter&#34;&gt;
+   &lt;const&gt;lcddefault&lt;/const&gt;
+ &lt;/edit&gt;
+&lt;/match&gt;
+
+
+&lt;!-- Default sans-serif font --&gt;
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;-apple-system&lt;/string&gt;&lt;/test&gt;
+   &lt;!--&lt;test qual=&#34;any&#34; name=&#34;lang&#34;&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;--&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Tex Gyre Heros&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;Helvetica Neue&lt;/string&gt;&lt;/test&gt;
+   &lt;!--&lt;test qual=&#34;any&#34; name=&#34;lang&#34;&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;--&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Tex Gyre Heros&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;Helvetica&lt;/string&gt;&lt;/test&gt;
+   &lt;!--&lt;test qual=&#34;any&#34; name=&#34;lang&#34;&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;--&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Tex Gyre Heros&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;arial&lt;/string&gt;&lt;/test&gt;
+   &lt;!--&lt;test qual=&#34;any&#34; name=&#34;lang&#34;&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;--&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Tex Gyre Heros&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;sans-serif&lt;/string&gt;&lt;/test&gt;
+   &lt;!--&lt;test qual=&#34;any&#34; name=&#34;lang&#34;&gt;&lt;string&gt;ja&lt;/string&gt;&lt;/test&gt;--&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Tex Gyre Heros&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+ 
+&lt;!-- Default serif fonts --&gt;
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;serif&lt;/string&gt;&lt;/test&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Libertinus Serif&lt;/string&gt;  &lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Noto Serif&lt;/string&gt;  &lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Noto Color Emoji&lt;/string&gt;  &lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;IPAPMincho&lt;/string&gt;  &lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;HanaMinA&lt;/string&gt;  &lt;/edit&gt;
+ &lt;/match&gt;
+
+&lt;!-- Default monospace fonts --&gt;
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;SFMono-Regular&lt;/string&gt;&lt;/test&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;DM Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Space Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Inconsolatazi4&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;IPAGothic&lt;/string&gt;&lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;Menlo&lt;/string&gt;&lt;/test&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;DM Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Space Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Inconsolatazi4&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;IPAGothic&lt;/string&gt;&lt;/edit&gt;
+ &lt;/match&gt;
+
+ &lt;match target=&#34;pattern&#34;&gt;
+   &lt;test qual=&#34;any&#34; name=&#34;family&#34;&gt;&lt;string&gt;monospace&lt;/string&gt;&lt;/test&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;DM Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;prepend&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Space Mono&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;Inconsolatazi4&lt;/string&gt;&lt;/edit&gt;
+   &lt;edit name=&#34;family&#34; mode=&#34;append&#34; binding=&#34;same&#34;&gt;&lt;string&gt;IPAGothic&lt;/string&gt;&lt;/edit&gt;
+ &lt;/match&gt;
+
+&lt;!-- Fallback fonts preference order --&gt;
+ &lt;alias&gt;
+  &lt;family&gt;sans-serif&lt;/family&gt;
+  &lt;prefer&gt;
+   &lt;family&gt;Noto Sans&lt;/family&gt;
+   &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+   &lt;family&gt;Noto Emoji&lt;/family&gt;
+   &lt;family&gt;Open Sans&lt;/family&gt;
+   &lt;family&gt;Droid Sans&lt;/family&gt;
+   &lt;family&gt;Ubuntu&lt;/family&gt;
+   &lt;family&gt;Roboto&lt;/family&gt;
+   &lt;family&gt;NotoSansCJK&lt;/family&gt;
+   &lt;family&gt;Source Han Sans JP&lt;/family&gt;
+   &lt;family&gt;IPAPGothic&lt;/family&gt;
+   &lt;family&gt;VL PGothic&lt;/family&gt;
+   &lt;family&gt;Koruri&lt;/family&gt;
+  &lt;/prefer&gt;
+ &lt;/alias&gt;
+ &lt;alias&gt;
+  &lt;family&gt;serif&lt;/family&gt;
+  &lt;prefer&gt;
+   &lt;family&gt;Noto Serif&lt;/family&gt;
+   &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+   &lt;family&gt;Noto Emoji&lt;/family&gt;
+   &lt;family&gt;Droid Serif&lt;/family&gt;
+   &lt;family&gt;Roboto Slab&lt;/family&gt;
+   &lt;family&gt;IPAPMincho&lt;/family&gt;
+  &lt;/prefer&gt;
+ &lt;/alias&gt;
+ &lt;alias&gt;
+  &lt;family&gt;monospace&lt;/family&gt;
+  &lt;prefer&gt;
+   &lt;family&gt;Noto Sans Mono&lt;/family&gt;
+   &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+   &lt;family&gt;Noto Emoji&lt;/family&gt;
+   &lt;family&gt;Inconsolatazi4&lt;/family&gt;
+   &lt;family&gt;Ubuntu Mono&lt;/family&gt;
+   &lt;family&gt;Droid Sans Mono&lt;/family&gt;
+   &lt;family&gt;Roboto Mono&lt;/family&gt;
+   &lt;family&gt;IPAGothic&lt;/family&gt;
+  &lt;/prefer&gt;
+ &lt;/alias&gt;
+
+&lt;/fontconfig&gt;
+</code></pre></div><p>What this file does that is it creates aliases for the common fonts used on the web and uses the metric compatible fonts that we have. That way we have way better looking fonts.</p>
+<p>After you have done all this, restart your computer to see the changes.</p>
+<h3 id="chrome">Chrome</h3>
+<p>If you are using chrome, you can do something more too.</p>
+<ul>
+<li>Goto Settings</li>
+<li>Select Customize Fonts under Appearences</li>
+<li>Set Standard to <code>Libertinus Serif</code></li>
+<li>Set Serif to <code>Libertinus Serif</code></li>
+<li>Set Sans-serif to <code>TeX Gyre Heros</code></li>
+<li>Set Fixed-width to <code>Monospace</code></li>
+</ul>
+<p>That&rsquo;s all set, and keep in mind this guide will be improved.</p>
+
+			</div>
+
+			<div>
+				<hr />
+				<p class="">Improve <a href="https://github.com/aswinmohanme/personalBlog/blob/master/content/posts/better-fonts-on-linux.md">this page</a></p>
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/typography">typography</a></li>
+							
+							<li><a href="/tags/macos">macOS</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright Aswin Mohan |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

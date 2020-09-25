@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Fri, 26 Jun 2020 09:36:01 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 22:15:59 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>macOS</title>
+      <link>https://aswinmohan.me/tags/macos/</link>
+      <pubDate>Fri, 11 Sep 2020 22:15:59 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typography</title>
+      <link>https://aswinmohan.me/tags/typography/</link>
+      <pubDate>Fri, 11 Sep 2020 22:15:59 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/tags/typography/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>code</title>
@@ -153,15 +171,6 @@
       <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
       
       <guid>https://aswinmohan.me/tags/tip-bit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>typography</title>
-      <link>https://aswinmohan.me/tags/typography/</link>
-      <pubDate>Sat, 08 Feb 2020 12:45:50 +0530</pubDate>
-      
-      <guid>https://aswinmohan.me/tags/typography/</guid>
       <description></description>
     </item>
     
