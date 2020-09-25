@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Fri, 11 Sep 2020 22:15:59 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 11:08:11 +0530</lastBuildDate>
     
 	<atom:link href="https://aswinmohan.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Levels of Learning</title>
+      <link>https://aswinmohan.me/posts/the-levels-of-learning/</link>
+      <pubDate>Sat, 19 Sep 2020 11:08:11 +0530</pubDate>
+      
+      <guid>https://aswinmohan.me/posts/the-levels-of-learning/</guid>
+      <description>Everyone loves to learn and with the advent of the Internet and all the good and bad things that came with it, access to a limitless stream of information about any topic under the sun sits on top of the list. I have always tried to learn new things and I love it. I think humans are hardwired to learn about things, their surroundings, friends, the things they could eat, quantum computing, how to lock pick e.</description>
+    </item>
     
     <item>
       <title>MacOS like Fonts on Manjaro/Arch Linux</title>
