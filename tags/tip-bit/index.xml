@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright Aswin Mohan</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate>
-    
-	<atom:link href="https://aswinmohan.me/tags/tip-bit/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 08 Feb 2020 12:45:50 +0530</lastBuildDate><atom:link href="https://aswinmohan.me/tags/tip-bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self Hosted NPM Fonts with Webpack</title>
       <link>https://aswinmohan.me/posts/npm-fonts-on-webpack/</link>
