@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aswinmohan.me/now/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aswinmohan.me/</loc>
     <lastmod>2020-09-19T11:08:11+05:30</lastmod>
   </url>
@@ -180,11 +185,6 @@
   <url>
     <loc>https://aswinmohan.me/tags/writing/</loc>
     <lastmod>2019-12-07T10:26:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aswinmohan.me/now/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
